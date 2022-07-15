@@ -1,0 +1,19 @@
+{
+  "name": "victor/php-pro",
+  "description": "php-profissional",
+  "autoload": {
+    "files": [
+      "app/helpers/constants.php"
+    ],
+    "psr-4": {
+      "app\\": "app"
+    }
+  },
+  "authors": [
+    {
+      "name": "Victor Lelis",
+      "email": "ovictorlelis@gmail.com"
+    }
+  ],
+  "require": {}
+}
