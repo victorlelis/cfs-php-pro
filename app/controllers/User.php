@@ -6,9 +6,11 @@ class User
 {
   public function show($params)
   {
-  }
+    if (!isset($params['user'])) {
+      return redirect('/');
+    }
 
-  public function create($params)
-  {
+    $user = findBy('users', 'id', $params['user']);
+    var_dump($user);
   }
 }
