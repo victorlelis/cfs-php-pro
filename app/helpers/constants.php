@@ -1,3 +1,3 @@
 <?php
 
-define('TESTE', 'teste contants');
+define('CONTROLLER_PATH', "app\\controllers\\");
