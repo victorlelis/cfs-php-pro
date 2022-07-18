@@ -1,5 +1,5 @@
 <h2>Login</h2>
-<?php echo getFlash('teste'); ?>
+<?php echo getFlash('message'); ?>
 
 <form action="/login" method="POST" id="box-login">
   <input type="text" name="email" placeholder="Seu email" value="teste@email.com">
